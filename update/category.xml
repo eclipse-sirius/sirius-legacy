@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2014, 2015 Obeo
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the Eclipse Public License v1.0
+  which accompanies this distribution, and is available at
+  http://www.eclipse.org/legal/epl-v10.html
+
+  Contributors:
+       Obeo - Initial API and implementation
+-->
+<site>
+   <description url="http://www.eclipse.org/sirius">
+      Sirius Legacy Support
+   </description>
+
+  <category-def name="org.eclipse.sirius.legacy" label="Sirius Legacy Support" />
+  <category-def name="org.eclipse.sirius.legacy.source" label="Sirius Legacy Support SDK" />
+
+  <feature id="org.eclipse.sirius.query.legacy.feature" version="1.1.0.qualifier">
+    <category name="org.eclipse.sirius.legacy"/>
+  </feature>
+  <feature id="org.eclipse.sirius.query.legacy.feature.source" version="1.1.0.qualifier">
+    <category name="org.eclipse.sirius.legacy.source"/>
+  </feature>
+</site>
